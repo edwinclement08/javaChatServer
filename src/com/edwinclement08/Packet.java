@@ -12,7 +12,22 @@ public class Packet implements Serializable	{
 	private static final long serialVersionUID = 1506783218794229333L;
 	transient static Gson gson = new Gson();
 	String value;
+	
+	
+	long deviceId;
+	String deviceType;
 		
+	public long getDeviceId() {
+		return deviceId;
+	}
+	public void setDeviceId(long deviceId) {
+		this.deviceId = deviceId;
+	}
+	
+	public void setDeviceType(String deviceType)	{
+		this.deviceType = deviceType;
+	}
+	
 	public Packet()	{
 	}
 	public Packet(String val )	{

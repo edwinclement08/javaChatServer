@@ -5,13 +5,12 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Optional;
+import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
 import org.apache.log4j.Logger;
 
-import com.edwinclement08.Message;
 import com.edwinclement08.Packet;
 import com.edwinclement08.ServerConfig;
 
@@ -20,6 +19,8 @@ public class ChatServer {
 	private static Socket socket;
 	final static Logger logger = Logger.getLogger(ChatServer.class);
 	public static ServerSocket serverSocket;
+
+    static long serverId;
 
 	/**
 	 * @param secToRun
@@ -58,12 +59,16 @@ public class ChatServer {
 				ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
 	            //convert ObjectInputStream object to String
 	            Packet packet = (Packet) ois.readObject();
-	            logger.info("Packet received from client is " + packet);
+	            long clientId = packet.getDeviceId();
+	            logger.info("Client::" + clientId + ":Packet received:" + packet);
 	            //create ObjectOutputStream object
 	            ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
 	            
 				Packet responsePacket = new Packet("Return");
+				responsePacket.setDeviceId(serverId);
+				responsePacket.setDeviceType("server");
 
+				
 	            //write object to Socket
 	            oos.writeObject(responsePacket);
 	            //close resources
@@ -71,7 +76,7 @@ public class ChatServer {
 	            oos.close();
 	            
 		       
-				logger.info("Packet sent to the client is :" + responsePacket);
+				logger.info("Client::" + clientId + ":Packet sent:" + responsePacket);
 			} catch (IOException e) {
 				e.printStackTrace();
 				logger.error("Can't listen on socket");
@@ -102,10 +107,11 @@ public class ChatServer {
 		}
 
 	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+	public ChatServer()	{
 		System.out.println("Initializing the Server");
+		serverId = new Random().nextLong();
+
 
 		if (logger.isDebugEnabled()) {
 			logger.debug("This is debug");
@@ -117,17 +123,23 @@ public class ChatServer {
 		initServer();
 		
 		loop(serverSocket);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		new ChatServer();
 
 
 	}
 }
-
-class ChatHandler {
-	public static Optional<Message> onMessage(Message obj) {
-		System.out.println(obj);
-
-		Optional<Message> returnMessage = Optional.ofNullable(obj);
-		return returnMessage;
-	}
-
-}
+//
+//class ChatHandler {
+//	public static Optional<Message> onMessage(Message obj) {
+//		System.out.println(obj);
+//
+//		Optional<Message> returnMessage = Optional.ofNullable(obj);
+//		return returnMessage;
+//	}
+//
+//}

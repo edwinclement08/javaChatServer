@@ -1,14 +1,8 @@
 package com.edwinclement08.client;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
 import java.net.InetAddress;
 import java.net.Socket;
 
@@ -17,9 +11,15 @@ import org.apache.log4j.Logger;
 import com.edwinclement08.Packet;
 import com.edwinclement08.ServerConfig;
 
+import java.util.Random;
+
+
 public class ChatClient {
     private static Socket socket;
     final static Logger logger = Logger.getLogger(ChatClient.class);
+    
+    static long clientId;
+    
 
     public static void initConnection()	{
     	  String host = ServerConfig.host;
@@ -34,17 +34,7 @@ public class ChatClient {
     }
     
     public static Packet sendPacket(Packet packet)	{
-//    	String packetString = packet.toString();
-//    	
-//    	//Send the message to the server
-//        OutputStream os;
-//        OutputStreamWriter osw;
-//        BufferedWriter bw;
-//        
-//        InputStream is;
-//        InputStreamReader isr;
-//        BufferedReader br; 
-//        
+       
         ObjectOutputStream oos = null;
         ObjectInputStream ois = null;
         
@@ -61,23 +51,7 @@ public class ChatClient {
 			//close resources
 			ois.close();
 			oos.close();
-//            
-//            
-//			os = socket.getOutputStream();
-//			osw = new OutputStreamWriter(os);
-//	        bw = new BufferedWriter(osw);
-//	        
-//	        logger.info("Sending Message:" + packetString);
-//            bw.write(packetString);
-//            bw.flush();
-//            
-//            //Get the return message from the server
-//            is = socket.getInputStream();
-//            isr = new InputStreamReader(is);
-//            br = new BufferedReader(isr);
-//            packetStringRecv = br.readLine();
-//            System.out.println("Message received from the server : " + packetStringRecv);
-//            
+
 		} catch (IOException e) {
 			e.printStackTrace();
 			logger.error("Unable to set up OutputStream");
@@ -105,15 +79,24 @@ public class ChatClient {
     }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		new ChatClient();
+	}	
+	
+	public ChatClient() {
+		// TODO Auto-generated constructor stub
+		clientId = new Random().nextLong();
 		logger.info("Client Initializing");
 		initConnection();
 		
 		Packet packet = new Packet("eded");
+		packet.setDeviceId(clientId);
+		packet.setDeviceType("client");
 		sendPacket(packet);
 		
 		closeConnection();
 		
-	}	
+	}
 }
 
  

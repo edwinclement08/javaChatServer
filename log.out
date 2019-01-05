@@ -140,3 +140,39 @@
 81 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
 42318 [main] INFO com.edwinclement08.server.ChatServer  - Packet received from client is {"value":"eded"}
 42318 [main] INFO com.edwinclement08.server.ChatServer  - Packet sent to the client is :{"value":"Return"}
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+96 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+1 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+15 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+4471 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+92 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+4628 [main] INFO com.edwinclement08.server.ChatServer  - Packet received from client is {"value":"eded","deviceId":-1348123045867121513}
+4632 [main] INFO com.edwinclement08.server.ChatServer  - Packet sent to the client is :{"value":"Return","deviceId":0}
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+13 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+14 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+15 [main] ERROR com.edwinclement08.server.ChatServer  - Can't close the socket
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+80 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+13 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+2250 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+89 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+2409 [main] INFO com.edwinclement08.server.ChatServer  - Client::-2762286614025659078:Packet received:{"value":"eded","deviceId":-2762286614025659078}
+2413 [main] INFO com.edwinclement08.server.ChatServer  - Client::-2762286614025659078:Packet sent:{"value":"Return","deviceId":0}
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+14 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+1965 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+88 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+2127 [main] INFO com.edwinclement08.server.ChatServer  - Client::-8937035092691505603:Packet received:{"value":"eded","deviceId":-8937035092691505603,"deviceType":"client"}
+2131 [main] INFO com.edwinclement08.server.ChatServer  - Client::-8937035092691505603:Packet sent:{"value":"Return","deviceId":0}
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+13 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+2291 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+82 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+2433 [main] INFO com.edwinclement08.server.ChatServer  - Client::6533003571580591389:Packet received:{"value":"eded","deviceId":6533003571580591389,"deviceType":"client"}
+2437 [main] INFO com.edwinclement08.server.ChatServer  - Client::6533003571580591389:Packet sent:{"value":"Return","deviceId":-1011445371178074351,"deviceType":"server"}
