@@ -1,9 +1,15 @@
 package com.edwinclement08;
 
+import java.io.Serializable;
+
 import com.google.gson.Gson;
 
 
-public class Packet	{
+public class Packet implements Serializable	{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1506783218794229333L;
 	transient static Gson gson = new Gson();
 	String value;
 		

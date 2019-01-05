@@ -44,3 +44,99 @@
 18 [main] ERROR com.edwinclement08.client.ChatClient  - Failed to initialize socket.
 0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
 0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+102 [main] INFO com.edwinclement08.client.ChatClient  - Sending Message:{"value":"eded"}
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+95 [main] INFO com.edwinclement08.client.ChatClient  - Sending Message:{"value":"eded"}
+20015 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+13 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+2056 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+106 [main] INFO com.edwinclement08.client.ChatClient  - Sending Message:{"value":"eded"}
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+15 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+12 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+13 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+13 [main] ERROR com.edwinclement08.server.ChatServer  - Can't close the socket
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+13 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+7493 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+7494 [main] INFO com.edwinclement08.server.ChatServer  - Reached here
+92 [main] INFO com.edwinclement08.client.ChatClient  - Sending Message:{"value":"eded"}
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+15 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+1924 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+1925 [main] INFO com.edwinclement08.server.ChatServer  - Reached here
+94 [main] INFO com.edwinclement08.client.ChatClient  - Sending Message:{"value":"eded"}
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+21 [main] ERROR com.edwinclement08.client.ChatClient  - Failed to initialize socket.
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+13 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+1 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+3619 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+3620 [main] INFO com.edwinclement08.server.ChatServer  - Reached here
+93 [main] INFO com.edwinclement08.client.ChatClient  - Sending Message:{"value":"eded"}
+20020 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20020 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20021 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20021 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20021 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20021 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20021 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20021 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20022 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20022 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20022 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20022 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20022 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20022 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20023 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20023 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20023 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20025 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20025 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+16 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+8955 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+104 [main] INFO com.edwinclement08.client.ChatClient  - Sending Message:{"value":"eded"}
+20022 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20023 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20023 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+20023 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+16 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+5070 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+97 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+119 [main] ERROR com.edwinclement08.client.ChatClient  - Unable to set up OutputStream
+5179 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+20 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+1904 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+128 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+2102 [main] INFO com.edwinclement08.server.ChatServer  - Packet received from client is {"value":"eded"}
+2107 [main] INFO com.edwinclement08.server.ChatServer  - Message sent to the client is :{"value":"Return"}
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+19 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+14 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+16 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+16 [main] ERROR com.edwinclement08.server.ChatServer  - Can't close the socket
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+32040 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+116 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+32256 [main] INFO com.edwinclement08.server.ChatServer  - Packet received from client is {"value":"eded"}
+32260 [main] INFO com.edwinclement08.server.ChatServer  - Packet sent to the client is :{"value":"Return"}
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+42257 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+81 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+42318 [main] INFO com.edwinclement08.server.ChatServer  - Packet received from client is {"value":"eded"}
+42318 [main] INFO com.edwinclement08.server.ChatServer  - Packet sent to the client is :{"value":"Return"}

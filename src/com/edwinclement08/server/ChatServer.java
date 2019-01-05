@@ -1,24 +1,19 @@
 package com.edwinclement08.server;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.Optional;
 import java.util.Timer;
 import java.util.TimerTask;
-import java.util.function.Function;
 
 import org.apache.log4j.Logger;
 
 import com.edwinclement08.Message;
 import com.edwinclement08.Packet;
 import com.edwinclement08.ServerConfig;
-import java.util.Optional;
 
 public class ChatServer {
 	public boolean DEBUG = true;
@@ -52,38 +47,46 @@ public class ChatServer {
 	}
 
 	public static void loop(ServerSocket serverSocket) {
-		try {
-			// Reading the message from the client
-			socket = serverSocket.accept();
-			InputStream is = socket.getInputStream();
-			InputStreamReader isr = new InputStreamReader(is);
-			BufferedReader br = new BufferedReader(isr);
-
-			String packetString = br.readLine();
-			Packet packet = Packet.fromString(packetString);
-
-			logger.info("Packet received from client is " + packet);
-
-			// TODO Process the packet, return new packet
-			Packet responsePacket = new Packet("Return");
-
-			// Sending the response back to the client.
-			OutputStream os = socket.getOutputStream();
-			OutputStreamWriter osw = new OutputStreamWriter(os);
-			BufferedWriter bw = new BufferedWriter(osw);
-			bw.write(responsePacket.toString());
-			logger.info("Message sent to the client is :" + responsePacket);
-			bw.flush();
-		} catch (IOException e) {
-			e.printStackTrace();
-			logger.error("Can't listen on socket");
-		} finally {
+		logger.info("Starting the Infinite Loop");
+		while (true){
 			try {
-				socket.close();
-			} catch (Exception e) {
-				logger.error("Can't close the socket");
-			}
+				// Reading the message from the client
+				socket = serverSocket.accept();
+				logger.info("got a client");
+				
+				
+				ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
+	            //convert ObjectInputStream object to String
+	            Packet packet = (Packet) ois.readObject();
+	            logger.info("Packet received from client is " + packet);
+	            //create ObjectOutputStream object
+	            ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
+	            
+				Packet responsePacket = new Packet("Return");
+
+	            //write object to Socket
+	            oos.writeObject(responsePacket);
+	            //close resources
+	            ois.close();
+	            oos.close();
+	            
+		       
+				logger.info("Packet sent to the client is :" + responsePacket);
+			} catch (IOException e) {
+				e.printStackTrace();
+				logger.error("Can't listen on socket");
+			} catch (ClassNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} finally {
+				try {
+					socket.close();
+				} catch (Exception e) {
+					logger.error("Can't close the socket");
+				}
+			}	
 		}
+		
 	}
 
 	public static void initServer() {
@@ -92,7 +95,7 @@ public class ChatServer {
 		try	{
 			serverSocket = new ServerSocket(port);	
 			System.out.println("Server Started and listening to the port ");
-			timedShutdown(20);
+			timedShutdown(200);
 		} catch (IOException e)	{
 			logger.error("Failed to bind to port:" + port);
 			e.printStackTrace();

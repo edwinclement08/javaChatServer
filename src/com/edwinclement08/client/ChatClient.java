@@ -5,6 +5,8 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.InetAddress;
@@ -32,37 +34,56 @@ public class ChatClient {
     }
     
     public static Packet sendPacket(Packet packet)	{
-    	String packetString = packet.toString();
-    	
-    	//Send the message to the server
-        OutputStream os;
-        OutputStreamWriter osw;
-        BufferedWriter bw;
-        
-        InputStream is;
-        InputStreamReader isr;
-        BufferedReader br; 
+//    	String packetString = packet.toString();
+//    	
+//    	//Send the message to the server
+//        OutputStream os;
+//        OutputStreamWriter osw;
+//        BufferedWriter bw;
+//        
+//        InputStream is;
+//        InputStreamReader isr;
+//        BufferedReader br; 
+//        
+        ObjectOutputStream oos = null;
+        ObjectInputStream ois = null;
         
         String packetStringRecv = "";
         
 		try {
-			os = socket.getOutputStream();
-			osw = new OutputStreamWriter(os);
-	        bw = new BufferedWriter(osw);
-
-            bw.write(packetString);
-            bw.flush();
-            
-            //Get the return message from the server
-            is = socket.getInputStream();
-            isr = new InputStreamReader(is);
-            br = new BufferedReader(isr);
-            packetStringRecv = br.readLine();
-            System.out.println("Message received from the server : " + packetStringRecv);
-            
+			oos = new ObjectOutputStream(socket.getOutputStream());
+		    logger.info("Sending packet to Socket Server");
+			oos.writeObject(packet);
+			//read the server response message
+			ois = new ObjectInputStream(socket.getInputStream());
+			Packet packetRecv = (Packet) ois.readObject();
+			System.out.println("Return Packet: " + packetRecv);
+			//close resources
+			ois.close();
+			oos.close();
+//            
+//            
+//			os = socket.getOutputStream();
+//			osw = new OutputStreamWriter(os);
+//	        bw = new BufferedWriter(osw);
+//	        
+//	        logger.info("Sending Message:" + packetString);
+//            bw.write(packetString);
+//            bw.flush();
+//            
+//            //Get the return message from the server
+//            is = socket.getInputStream();
+//            isr = new InputStreamReader(is);
+//            br = new BufferedReader(isr);
+//            packetStringRecv = br.readLine();
+//            System.out.println("Message received from the server : " + packetStringRecv);
+//            
 		} catch (IOException e) {
 			e.printStackTrace();
 			logger.error("Unable to set up OutputStream");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		} 
 		
         return Packet.fromString(packetStringRecv);
