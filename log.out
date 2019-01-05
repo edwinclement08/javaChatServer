@@ -1,0 +1,29 @@
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+2 [main] ERROR com.edwinclement08.server.ChatServer  - This is error : 231
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+2 [main] ERROR com.edwinclement08.server.ChatServer  - This is error : 231
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+2 [main] ERROR com.edwinclement08.server.ChatServer  - This is error : 231
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+1 [main] ERROR com.edwinclement08.server.ChatServer  - This is error : 231
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+1 [main] ERROR com.edwinclement08.server.ChatServer  - This is error : 231
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+1 [main] ERROR com.edwinclement08.server.ChatServer  - This is error : 231
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+1 [main] ERROR com.edwinclement08.server.ChatServer  - This is error : 231
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+1 [main] ERROR com.edwinclement08.server.ChatServer  - This is error : 231
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+1 [main] ERROR com.edwinclement08.server.ChatServer  - This is error : 231
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+0 [main] ERROR com.edwinclement08.server.ChatServer  - This is error : 231
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+1 [main] ERROR com.edwinclement08.server.ChatServer  - This is error : 231
+1 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+2 [main] ERROR com.edwinclement08.server.ChatServer  - This is error : 231
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+1 [main] ERROR com.edwinclement08.server.ChatServer  - This is error : 231
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+1 [main] ERROR com.edwinclement08.server.ChatServer  - This is error : 231
+10014 [Timer-0] ERROR com.edwinclement08.server.ChatServer  - Error Shutting down in timed manner
