@@ -27,3 +27,20 @@
 0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
 1 [main] ERROR com.edwinclement08.server.ChatServer  - This is error : 231
 10014 [Timer-0] ERROR com.edwinclement08.server.ChatServer  - Error Shutting down in timed manner
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+2 [main] ERROR com.edwinclement08.server.ChatServer  - This is error : 231
+20024 [Timer-0] INFO com.edwinclement08.server.ChatServer  - Error Shutting down in timed manner
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+2 [main] ERROR com.edwinclement08.server.ChatServer  - This is error : 231
+20022 [Timer-0] INFO com.edwinclement08.server.ChatServer  - Error Shutting down in timed manner
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+20023 [Timer-0] INFO com.edwinclement08.server.ChatServer  - Error Shutting down in timed manner
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+20024 [Timer-0] INFO com.edwinclement08.server.ChatServer  - Error Shutting down in timed manner
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+18 [main] ERROR com.edwinclement08.client.ChatClient  - Failed to initialize socket.
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
