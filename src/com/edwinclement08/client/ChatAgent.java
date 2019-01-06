@@ -4,7 +4,6 @@ import org.apache.log4j.Logger;
 
 import com.edwinclement08.Message;
 import com.edwinclement08.Packet;
-import com.edwinclement08.server.ChatServer;
 
 import picocli.CommandLine;
 import picocli.CommandLine.Option;

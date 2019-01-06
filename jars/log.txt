@@ -1,0 +1,28 @@
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+8 [main] ERROR com.edwinclement08.client.ChatClient  - Failed to initialize socket.
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+9 [main] ERROR com.edwinclement08.client.ChatClient  - Failed to initialize socket.
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+6 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+6 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+7 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+7 [main] ERROR com.edwinclement08.server.ChatServer  - Can't close the socket
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+6 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+7 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+7 [main] ERROR com.edwinclement08.server.ChatServer  - Can't close the socket
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+5 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+6 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+6 [main] ERROR com.edwinclement08.server.ChatServer  - Can't close the socket
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+6 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+10397 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+41 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+10485 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+10490 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+10492 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+116 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent","senderId":12,"receiverId":24,"timeStampMillis":1546801436954}}
+117 [main] ERROR com.edwinclement08.client.ChatClient  - Unable to set up OutputStream

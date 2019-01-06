@@ -12,9 +12,7 @@ import java.util.function.Function;
 
 import org.apache.log4j.Logger;
 
-import com.edwinclement08.Message;
 import com.edwinclement08.Packet;
-import com.edwinclement08.Packet.PacketType;
 import com.edwinclement08.ServerConfig;
 
 public class ChatServer {

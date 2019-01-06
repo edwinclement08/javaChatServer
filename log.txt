@@ -75,3 +75,15 @@
 143 [main] ERROR com.edwinclement08.client.ChatClient  - Unable to set up OutputStream
 0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
 10 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+9 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+1 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+20735 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+42 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+20815 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+20822 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+20824 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+114 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent","senderId":12,"receiverId":24,"timeStampMillis":1546800549681}}
+115 [main] ERROR com.edwinclement08.client.ChatClient  - Unable to set up OutputStream
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+13 [main] ERROR com.edwinclement08.client.ChatClient  - Failed to initialize socket.
