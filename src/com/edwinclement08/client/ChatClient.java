@@ -46,22 +46,24 @@ public class ChatClient {
     }
     
     public  Packet sendPacket(Packet packet)	{
+    	initConnection();
     	packet.setDeviceId(clientId);
 		packet.setDeviceType("client");
 		
         ObjectOutputStream oos = null;
         ObjectInputStream ois = null;
-        
-        String packetStringRecv = "";
+        Packet packetRecv = new Packet();
         
 		try {
+			logger.debug("Debug reach here");
+			logger.debug(packet);
 			oos = new ObjectOutputStream(socket.getOutputStream());
-		    logger.info("Sending packet to Socket Server");
+		    logger.info("Sending packet to server: "+ packet);
 			oos.writeObject(packet);
 			//read the server response message
 			ois = new ObjectInputStream(socket.getInputStream());
-			Packet packetRecv = (Packet) ois.readObject();
-			System.out.println("Return Packet: " + packetRecv);
+			packetRecv = (Packet) ois.readObject();
+			logger.info("Return Packet from Server: " + packetRecv);
 			//close resources
 			ois.close();
 			oos.close();
@@ -72,15 +74,15 @@ public class ChatClient {
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} 
+		}
+		closeConnection();
 		
-        return Packet.fromString(packetStringRecv);
-
+        return packetRecv;
+        
     }
     
     
     public  void closeConnection()	{
-    	
         try
         {
             socket.close();
@@ -94,7 +96,6 @@ public class ChatClient {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ChatClientCommandLine arguments = CommandLine.populateCommand(new ChatClientCommandLine(), args);
-		System.out.println("command line client id " + arguments.clientId);
 	
 		if(arguments.usageHelpRequested)	{
 			CommandLine.usage(arguments, System.out);
@@ -108,13 +109,12 @@ public class ChatClient {
 
 		Packet packet = new Packet("eded", Packet.PacketType.DEV);
 		chatClient.sendPacket(packet);
-		chatClient.closeConnection();
+		//chatClient.closeConnection();
 	}
 	
 	public ChatClient() {
 		clientId = new Random().nextLong();
-		logger.info("Client Initializing");
-		initConnection();
+//		logger.info("Client Initializing");
 	}
 	public void assignClientId(long clientId)	{
 		this.clientId = clientId;

@@ -87,3 +87,895 @@
 115 [main] ERROR com.edwinclement08.client.ChatClient  - Unable to set up OutputStream
 0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
 13 [main] ERROR com.edwinclement08.client.ChatClient  - Failed to initialize socket.
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+8 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+46942 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+47027 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+47033 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+47035 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+14 [main] ERROR com.edwinclement08.client.ChatClient  - Failed to initialize socket.
+39 [main] DEBUG com.edwinclement08.client.ChatClient  - Debug reach here
+1 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+9 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+12105 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+12190 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+12196 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+12198 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+181207 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+181243 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+181243 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+181244 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+184423 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+184459 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+184459 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+184459 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+9 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+18291 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+18374 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+18380 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+18382 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+9 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+10 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+8 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+1937 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+2021 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+2026 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+2028 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+8 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+9 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+8 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+2144 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+2229 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+2234 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+2236 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+48291 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+37 [main] DEBUG com.edwinclement08.client.ChatClient  - Debug reach here
+39 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+48321 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+48321 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+48321 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+57 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent","senderId":12,"receiverId":24,"timeStampMillis":1546803772711}}
+58 [main] DEBUG com.edwinclement08.client.ChatClient  - Debug reach here
+58 [main] ERROR com.edwinclement08.client.ChatClient  - Unable to set up OutputStream
+1 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+103414 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+40 [main] DEBUG com.edwinclement08.client.ChatClient  - Debug reach here
+40 [main] DEBUG com.edwinclement08.client.ChatClient  - {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+54 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+103458 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+103458 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+103458 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+61 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent","senderId":12,"receiverId":24,"timeStampMillis":1546803827837}}
+61 [main] DEBUG com.edwinclement08.client.ChatClient  - Debug reach here
+61 [main] DEBUG com.edwinclement08.client.ChatClient  - {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent","senderId":12,"receiverId":24,"timeStampMillis":1546803827837}}
+62 [main] ERROR com.edwinclement08.client.ChatClient  - Unable to set up OutputStream
+284459 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+0 [main] DEBUG com.edwinclement08.client.ChatClient  - Debug reach here
+0 [main] DEBUG com.edwinclement08.client.ChatClient  - {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+13 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+284477 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+284477 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+284477 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+20 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent","senderId":12,"receiverId":24,"timeStampMillis":1546804008856}}
+20 [main] DEBUG com.edwinclement08.client.ChatClient  - Debug reach here
+284480 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+20 [main] DEBUG com.edwinclement08.client.ChatClient  - {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent","senderId":12,"receiverId":24,"timeStampMillis":1546804008856}}
+20 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+284482 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent","senderId":12,"receiverId":24,"timeStampMillis":1546804008856}}
+284482 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+284482 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:24
+284482 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+284482 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"Testing the Chat Agent","senderId":12,"receiverId":24,"timeStampMillis":1546804008856}
+284483 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+321342 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+0 [main] DEBUG com.edwinclement08.client.ChatClient  - Debug reach here
+0 [main] DEBUG com.edwinclement08.client.ChatClient  - {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+12 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+321359 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+321359 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+321360 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+19 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent","senderId":12,"receiverId":24,"timeStampMillis":1546804045738}}
+20 [main] DEBUG com.edwinclement08.client.ChatClient  - Debug reach here
+321363 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+20 [main] DEBUG com.edwinclement08.client.ChatClient  - {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent","senderId":12,"receiverId":24,"timeStampMillis":1546804045738}}
+20 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+321364 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent","senderId":12,"receiverId":24,"timeStampMillis":1546804045738}}
+321364 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+321364 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:24
+321364 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+321364 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"Testing the Chat Agent","senderId":12,"receiverId":24,"timeStampMillis":1546804045738}
+321364 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+336686 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+0 [main] DEBUG com.edwinclement08.client.ChatClient  - Debug reach here
+1 [main] DEBUG com.edwinclement08.client.ChatClient  - {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+13 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+336703 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+336703 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+336703 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+20 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546804061082}}
+20 [main] DEBUG com.edwinclement08.client.ChatClient  - Debug reach here
+336706 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+20 [main] DEBUG com.edwinclement08.client.ChatClient  - {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546804061082}}
+20 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+336707 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546804061082}}
+336707 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+336707 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:24
+336707 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+336707 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546804061082}
+336708 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+374708 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+0 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+374714 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+374714 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+374714 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+19 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546804099104}}
+19 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+374728 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+374729 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546804099104}}
+374729 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+374729 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:24
+374729 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+374729 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546804099104}
+374729 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+0 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+6976 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+0 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+7030 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+7036 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+7038 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+72 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546804876834}}
+72 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+7050 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+7051 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546804876834}}
+7052 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+7052 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:24
+7052 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+7052 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546804876834}
+7052 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+175654 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+0 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+175660 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+175660 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+175660 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+18 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805045458}}
+18 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+175674 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+175675 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805045458}}
+175675 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+175675 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:24
+175675 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+175675 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805045458}
+175676 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+191903 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+0 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+191909 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+191909 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+191909 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+19 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805061707}}
+20 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+191924 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+191925 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805061707}}
+191925 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+191925 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:24
+191925 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+191925 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805061707}
+191925 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+1 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+9 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+6515 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+0 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+6570 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+6576 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+6578 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+73 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet: {"value":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+74 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805166339}}
+74 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+6590 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+6592 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805166339}}
+6592 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+6592 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:24
+6592 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+6592 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805166339}
+6593 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+77 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet: {"value":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+9 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+8 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+9 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+9115 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+0 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+9169 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9175 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+9177 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+72 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet: {"value":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+73 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805413162}}
+74 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+9190 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+9191 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805413162}}
+9191 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+9191 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:24
+9191 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+9191 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805413162}
+9192 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+76 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet: {"value":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+37026 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+0 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+37032 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+37032 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+37033 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+18 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet: {"value":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+19 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805441020}}
+19 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+37047 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+37048 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805441020}}
+37048 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+37048 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:24
+37048 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+37048 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805441020}
+37048 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+21 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet: {"value":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+97455 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+97461 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+97461 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+97461 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+97476 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+97477 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805501449}}
+97477 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+97477 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:24
+97477 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+97477 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805501449}
+97477 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+9 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+4407 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+4462 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+4468 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+4470 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+4483 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+4484 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805587451}}
+4484 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+4484 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:24
+4484 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+4484 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805587451}
+4485 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+8 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+8 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+8 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+9 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+10 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+11046 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+11109 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+11117 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+11119 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+11132 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+11133 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546805792760}}
+11133 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+11134 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:24
+138820 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+8 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+9 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+4582 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+0 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+4636 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+4638 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"Received a Packet from 12","packetType":"DEV","deviceId":0}
+67 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet: {"value":"Received a Packet from 12","packetType":"DEV","deviceId":0}
+68 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546806110271}}
+68 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+4651 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+4653 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546806110271}}
+4653 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"Received a Packet from 12","packetType":"DEV","deviceId":0}
+70 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet: {"value":"Received a Packet from 12","packetType":"DEV","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client
+162555 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+14 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server
+162560 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+162560 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"Received a Packet from 12","packetType":"DEV","deviceId":0}
+32 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet: {"value":"Received a Packet from 12","packetType":"DEV","deviceId":0}
+32 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546806268194}}
+33 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server
+162575 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+162576 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546806268194}}
+162576 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"Received a Packet from 12","packetType":"DEV","deviceId":0}
+34 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet: {"value":"Received a Packet from 12","packetType":"DEV","deviceId":0}
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+8 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+9 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client
+4815 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+14 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server
+4870 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+4875 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+4877 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+86 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet: {"value":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+87 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546806328113}}
+87 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server
+4889 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+4890 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546806328113}}
+4890 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+4891 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:24
+4891 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+4891 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"Testing the Chat Agent 123","senderId":12,"receiverId":24,"timeStampMillis":1546806328113}
+4891 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+89 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet: {"value":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+400009 [Timer-0] INFO com.edwinclement08.server.ChatServer  - Shutting down server
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+10 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+57816 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+57870 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+57875 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+57877 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+100633 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+100639 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+100639 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+100639 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+135686 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+135691 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+135692 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+135692 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+164502 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+164507 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+164507 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+164507 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+188459 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+188464 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+188464 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+188465 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+188468 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+188469 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546809546954}}
+188469 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+188470 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:23
+188470 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+188470 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546809546954}
+188470 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+347443 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+347448 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+347448 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+347448 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+347451 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+347452 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546809705937}}
+347452 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+347452 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:23
+347453 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+347453 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546809705937}
+347453 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+400010 [Timer-0] INFO com.edwinclement08.server.ChatServer  - Shutting down server
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+8 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+8 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+2201 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+2256 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+2261 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+2263 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+27747 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+27752 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+27752 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+27753 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+37877 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+37883 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+37883 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+37883 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+62868 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+62873 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+62873 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+62873 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+125994 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+125999 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+125999 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+125999 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+126003 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+126004 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546809980863}}
+126004 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+126004 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:23
+126005 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+126005 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546809980863}
+126005 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+136832 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+136837 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+136837 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+136838 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+136841 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+136843 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+8 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+9 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+4903 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+4957 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+4963 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+4965 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+4966 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+4968 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810184988}}
+4968 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+4968 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:23
+4968 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+4968 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810184988}
+4968 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+6802 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+6807 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+6807 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+6807 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+6810 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+6812 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+6812 [main] INFO com.edwinclement08.Database  - []
+6814 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":[],"packetType":"CHECK_MESSAGE_RESPONSE","deviceId":0}
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+13 [main] ERROR com.edwinclement08.client.ChatClient  - Failed to initialize socket.
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+8 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+8 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+3191 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+3246 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+3251 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+3253 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+3254 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+3256 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810282568}}
+3256 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+3256 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:23
+3256 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+3256 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810282568}
+3257 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+6713 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+6718 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+6719 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+6719 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+6722 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+6724 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+6724 [main] INFO com.edwinclement08.Database  - []
+6724 [main] INFO com.edwinclement08.Database  - 0
+6724 [main] INFO com.edwinclement08.Database  - 0
+6724 [main] INFO com.edwinclement08.Database  - []
+6726 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":[],"packetType":"CHECK_MESSAGE_RESPONSE","deviceId":0}
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+8 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+8 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+2421 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+2475 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+2481 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+2483 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+2484 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+2486 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810347639}}
+2486 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+2486 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:23
+2486 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+2486 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810347639}]
+2486 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810347639}
+2486 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+13728 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+13733 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+13733 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+13733 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+13736 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+13738 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+13738 [main] INFO com.edwinclement08.Database  - []
+13738 [main] INFO com.edwinclement08.Database  - 0
+13738 [main] INFO com.edwinclement08.Database  - 0
+13738 [main] INFO com.edwinclement08.Database  - []
+13740 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":[],"packetType":"CHECK_MESSAGE_RESPONSE","deviceId":0}
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+10 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+4860 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+4924 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+4931 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+4933 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+4935 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+4936 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810428794}}
+4936 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+4936 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:23
+82874 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+82874 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810428794}]
+82874 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810428794}
+82875 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+88865 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+88871 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+88871 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+88871 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+88874 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+88876 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+9 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+4151 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+4215 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+4222 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+4224 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+4225 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+4227 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+44371 [main] INFO com.edwinclement08.Database  - []
+44371 [main] INFO com.edwinclement08.Database  - 0
+44371 [main] INFO com.edwinclement08.Database  - 0
+44371 [main] INFO com.edwinclement08.Database  - []
+44374 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":[],"packetType":"CHECK_MESSAGE_RESPONSE","deviceId":0}
+47734 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+47739 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+47740 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+47740 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+47743 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+47744 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810627527}}
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+10 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+10 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+2211 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+2273 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+2280 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+2283 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+2284 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+2285 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810712271}}
+2286 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+2286 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:23
+12603 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+12603 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810712271}]
+12604 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810712271}
+12604 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+23607 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+23613 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+23613 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+23613 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+23616 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+23617 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810733603}}
+23617 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+23618 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:23
+106161 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+106161 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810733603}]
+106161 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810733603}
+106161 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+121514 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+121519 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+121519 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+121519 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+121523 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+121524 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810831510}}
+121524 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+121524 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:23
+154591 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+154592 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810831510}]
+154592 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810831510}
+154592 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+9 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+5285 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+5349 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+5357 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+5359 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+5360 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+5362 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810937453}}
+12906 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+12906 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:23
+44622 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+46823 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810937453}]
+63292 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546810937453}
+74443 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+118325 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+122192 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+123560 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+128282 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+129398 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+131365 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811058508}}
+141828 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+141829 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:23
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+9 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+3582 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+3643 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+3650 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+3652 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+3653 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+3655 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811099899}}
+74770 [main] INFO com.edwinclement08.Database  - The Receiver ChatAgent is not registered
+75319 [main] INFO com.edwinclement08.Database  - Creating a message queue for receiver:23
+103537 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+106398 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811099899}]
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+9 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+6042 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+6107 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+6113 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+6115 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+6117 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+6119 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811534959}}
+26774 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+27195 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811534959}]
+29579 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811534959}
+29580 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+34105 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+34110 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+34110 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+34111 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+34114 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+34115 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811562957}}
+43000 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+43444 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811534959}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811562957}]
+47682 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811562957}
+47682 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+50481 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+50486 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+50486 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+50486 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+50489 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+50491 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+53393 [main] INFO com.edwinclement08.Database  - []
+53393 [main] INFO com.edwinclement08.Database  - 0
+53393 [main] INFO com.edwinclement08.Database  - 0
+53393 [main] INFO com.edwinclement08.Database  - []
+53396 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":[],"packetType":"CHECK_MESSAGE_RESPONSE","deviceId":0}
+62321 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+62326 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+62326 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+62326 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+62329 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+62330 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+95480 [main] INFO com.edwinclement08.Database  - []
+95481 [main] INFO com.edwinclement08.Database  - 0
+95481 [main] INFO com.edwinclement08.Database  - 0
+95481 [main] INFO com.edwinclement08.Database  - []
+95481 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":[],"packetType":"CHECK_MESSAGE_RESPONSE","deviceId":0}
+98154 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+98159 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+98159 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+98159 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+98163 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+98164 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811627005}}
+114873 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+114873 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811627005}]
+114873 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811627005}
+114874 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+117241 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+117246 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+117246 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+117247 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+117250 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+117251 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811646093}}
+121073 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+121073 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811627005}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811646093}]
+121073 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811646093}
+121074 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+197228 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+197233 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+197233 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+197233 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+197237 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+197237 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811726079}}
+227300 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+227300 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811627005}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811646093}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811726079}]
+227301 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811726079}
+227301 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+241766 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+241771 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+241771 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+241771 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+241775 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+241776 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811770618}}
+282908 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+282908 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811627005}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811646093}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811726079}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811770618}]
+282909 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811770618}
+282909 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+296701 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+296706 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+296706 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+296707 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+296710 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+296711 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+342416 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811627005}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811646093}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811726079}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811770618}]
+345446 [main] INFO com.edwinclement08.Database  - 4
+347083 [main] INFO com.edwinclement08.Database  - 0
+349612 [main] INFO com.edwinclement08.Database  - []
+400009 [Timer-0] INFO com.edwinclement08.server.ChatServer  - Shutting down server
+1 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+10 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+10 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+10615 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+10678 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+10685 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+10687 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+10689 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+10690 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811951575}}
+31317 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+32038 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811951575}]
+38906 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811951575}
+54745 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+58008 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+58013 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+58013 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+58013 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+58017 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+58018 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811998904}}
+63294 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+63294 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811951575}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811998904}]
+63294 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546811998904}
+63294 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+67408 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+67413 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+67413 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+67413 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+67416 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+67418 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+127087 [main] INFO com.edwinclement08.Database  - []
+127087 [main] INFO com.edwinclement08.Database  - 0
+127087 [main] INFO com.edwinclement08.Database  - 0
+127087 [main] INFO com.edwinclement08.Database  - []
+127089 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":[],"packetType":"CHECK_MESSAGE_RESPONSE","deviceId":0}
+131191 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+131196 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+131196 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+131197 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+131200 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+131201 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812072087}}
+140993 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+140993 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812072087}]
+140994 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812072087}
+140994 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+152818 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+152823 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+152823 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+152824 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+152827 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+152828 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+175880 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812072087}]
+177750 [main] INFO com.edwinclement08.Database  - 1
+178875 [main] INFO com.edwinclement08.Database  - 0
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+8 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+9 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+2741 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+2803 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+2810 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+2812 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+2813 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+2815 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812170995}}
+1 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+10 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+1861 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+1924 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+1931 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+1933 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+1934 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+1936 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812243778}}
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+9 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+10 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+1734 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+1796 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+1803 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+1806 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+1807 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+1808 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812308138}}
+9891 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+9891 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812308138}]
+9891 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812308138}
+9891 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+12727 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+12732 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+12732 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+12732 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+12736 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+12737 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812319067}}
+23245 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+23246 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812308138}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812319067}]
+23246 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812319067}
+23246 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+25584 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+25589 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+25589 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+25590 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+25593 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+25594 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812331924}}
+39234 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+39234 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812308138}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812319067}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812331924}]
+39235 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812331924}
+39235 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+41975 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+41980 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+41980 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+41981 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+41984 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+41986 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+0 [main] ERROR com.edwinclement08.Database  - Inited
+34 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+42 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+0 [main] ERROR com.edwinclement08.Database  - Inited
+33 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+41 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+41 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+2977 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+3032 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+3038 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+3040 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+3041 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+3043 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812431857}}
+3043 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+3043 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812431857}]
+3043 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812431857}
+3043 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+4104 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+4109 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+4110 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+4110 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+4113 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+4114 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812432929}}
+4114 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+4114 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812431857}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812432929}]
+4114 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812432929}
+4115 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+5365 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+5371 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+5371 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+5371 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+5374 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+5375 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812434190}}
+5375 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+5375 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812431857}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812432929}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812434190}]
+5376 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812434190}
+5376 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+11918 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+11923 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+11923 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+11923 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+11926 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+11928 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+11928 [main] INFO com.edwinclement08.Database  - []
+11928 [main] INFO com.edwinclement08.Database  - 0
+11928 [main] INFO com.edwinclement08.Database  - 0
+11928 [main] INFO com.edwinclement08.Database  - []
+11930 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":[],"packetType":"CHECK_MESSAGE_RESPONSE","deviceId":0}
+52803 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+52808 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+52808 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+52808 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+52811 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+52812 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+52812 [main] INFO com.edwinclement08.Database  - []
+52813 [main] INFO com.edwinclement08.Database  - 0
+52813 [main] INFO com.edwinclement08.Database  - 0
+52813 [main] INFO com.edwinclement08.Database  - []
+52813 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":[],"packetType":"CHECK_MESSAGE_RESPONSE","deviceId":0}
+57409 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+57414 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+57414 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+57414 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+57417 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+57418 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812486233}}
+57418 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+57418 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812486233}]
+57419 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812486233}
+57419 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+58721 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+58726 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+58726 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+58726 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+58729 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+58730 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+58730 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546812486233}]
+58730 [main] INFO com.edwinclement08.Database  - 1
+58730 [main] INFO com.edwinclement08.Database  - 1

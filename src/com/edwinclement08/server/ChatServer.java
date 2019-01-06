@@ -34,8 +34,7 @@ public class ChatServer {
 		timer.schedule(new TimerTask() {
 			@Override
 			public void run() {
-				// TODO Auto-generated method stub
-				System.out.println("Shutting down server");
+				logger.info("Shutting down server");
 				try {
 					socket.close();
 					serverSocket.close();
@@ -45,11 +44,10 @@ public class ChatServer {
 				System.exit(0);
 			}
 		}, secToRun * 1000);
-		System.out.println("Shutting down the server in 10 sec");
+		logger.info("Shutting down the server in "+secToRun +  " sec");
 	}
 
 	public static void loop(ServerSocket serverSocket, Function<Packet, Packet> callback) {
-		logger.info("Starting the Infinite Loop");
 		while (true){
 			try {
 				// Reading the message from the client
@@ -63,32 +61,27 @@ public class ChatServer {
 	            long clientId = packet.getDeviceId();
 	            logger.info("Client::" + clientId + ":Packet received:" + packet);
 	          
-	            
-//	        	Packet responsePacket = new Packet("Return");
-//				responsePacket.setDeviceId(serverId);
-//				responsePacket.setDeviceType("server");
+	           
 
 				Packet responsePacket = callback.apply(packet);
 				
-	            //create ObjectOutputStream object
 	            ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
 	            //write object to Socket
 	            oos.writeObject(responsePacket);
 	            //close resources
-	            ois.close();
-	            oos.close();
-	            
+//	            ois.close();
+//	            oos.close();
+//	            // TODO close these
 		       
 				logger.info("Client::" + clientId + ":Packet sent:" + responsePacket);
 			} catch (IOException e) {
 				e.printStackTrace();
 				logger.error("Can't listen on socket");
 			} catch (ClassNotFoundException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} finally {
 				try {
-					socket.close();
+					//socket.close();
 				} catch (Exception e) {
 					logger.error("Can't close the socket");
 				}
@@ -102,46 +95,28 @@ public class ChatServer {
 		
 		try	{
 			serverSocket = new ServerSocket(port);	
-			System.out.println("Server Started and listening to the port ");
-			timedShutdown(200);
+			logger.info("Server Started and listening to the port ");
+			timedShutdown(400);
 		} catch (IOException e)	{
 			logger.error("Failed to bind to port:" + port);
 			e.printStackTrace();
 		}
-
 	}
 	
 	public ChatServer(Function<Packet, Packet> chatHandlerCallback)	{
-		System.out.println("Initializing the Server");
+		
+		logger.info("Initializing the Server");
 		serverId = new Random().nextLong();
-
 
 		if (logger.isDebugEnabled()) {
 			logger.debug("This is debug");
 		}
 
-		System.out.println("Reached Here");
-
 		initServer();
-		
 		loop(serverSocket, chatHandlerCallback);
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	public static void main(String[] args) {		
 		new ChatServer((packet) -> new Packet("Received a Packet from " + packet.getDeviceId(), Packet.PacketType.DEV));
-
-
 	}
 }
-//
-//class ChatHandler {
-//	public static Optional<Message> onMessage(Message obj) {
-//		System.out.println(obj);
-//
-//		Optional<Message> returnMessage = Optional.ofNullable(obj);
-//		return returnMessage;
-//	}
-//
-//}

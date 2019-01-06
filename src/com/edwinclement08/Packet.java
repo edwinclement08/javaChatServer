@@ -6,12 +6,23 @@ import com.google.gson.Gson;
 
 public class Packet implements Serializable	{
 	public enum PacketType	{
-		DEV, SEND_MESSAGE, CHECK_MESSAGE, REGISTER_AGENT;
+		DEV, 					// Default 
+		ERROR,					// Error 						
+		SEND_MESSAGE, 			// sending message(Client to Server)
+		SEND_MESSAGE_SUCCESS,	// successful response to client sending message(Server to client)
+		
+		CHECK_MESSAGE, 			// checking message(Client to Server)
+		CHECK_MESSAGE_RESPONSE,	// Response to checking message(Server to client), check the Value
+		
+		REGISTER_AGENT,			// register client(client to server)
+		REGISTER_AGENT_SUCCESS;		// successful response to client register(Server to client)
 	};
 
 	private static final long serialVersionUID = 1506783218794229333L;
 	transient static Gson gson = new Gson();
-	String value;
+	Object payload;
+
+
 	PacketType packetType = PacketType.DEV;
 	long deviceId;
 	String deviceType;
@@ -23,11 +34,13 @@ public class Packet implements Serializable	{
 
 	public Packet()	{
 	}
-	public Packet(String val, PacketType packetType )	{
-		value = val; 
+	
+	public Packet(Object payload, PacketType packetType )	{
+		this.payload = payload; 
 		this.packetType = packetType;
 	}
 	
+	// TODO standardize and use the pay load object
 	public Packet(PacketType packetType, Object parameters){
 		if (packetType == PacketType.SEND_MESSAGE){
 			message = (Message) parameters;
@@ -43,30 +56,34 @@ public class Packet implements Serializable	{
 		return packet;
 	}
 	
+	// for higher level
 	public PacketType getPacketType() {
 		return packetType;
 	}
 	public void setPacketType(PacketType packetType) {
 		this.packetType = packetType;
 	}
+	public Object getPayload() {
+		return payload;
+	}
+	public void setPayload(Object payload) {
+		this.payload = payload;
+	}
 		
+	
+	// for low level packet interfaces
 	public long getDeviceId() {
 		return deviceId;
 	}
 	public void setDeviceId(long deviceId) {
 		this.deviceId = deviceId;
 	}
-	
 	public void setDeviceType(String deviceType)	{
 		this.deviceType = deviceType;
 	}
 	
 	
-	
-	public void setValue(String val)	{
-		value = val;
-	}
-	
+	// legacy
 	public String toString()	{
 		return gson.toJson(this);
 	}
