@@ -5,23 +5,35 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.InetAddress;
 import java.net.Socket;
+import java.util.Random;
 
 import org.apache.log4j.Logger;
 
 import com.edwinclement08.Packet;
 import com.edwinclement08.ServerConfig;
 
-import java.util.Random;
+import picocli.CommandLine;
+import picocli.CommandLine.Option;
 
+class ChatClientCommandLine 	{
+    @Option(names = { "-v", "--verbose" }, description = "Be verbose.")
+    private boolean verbose = false;
+    
+    @Option(names = { "-i", "--id" }, description = "Set the client")
+    Long clientId;
+
+    @Option(names = {"-h", "--help"}, usageHelp = true, description = "Display help")
+    boolean usageHelpRequested;
+}
 
 public class ChatClient {
     private static Socket socket;
     final static Logger logger = Logger.getLogger(ChatClient.class);
     
-    static long clientId;
+    long clientId;
     
 
-    public static void initConnection()	{
+    public  void initConnection()	{
     	  String host = ServerConfig.host;
           int port = ServerConfig.port;
           
@@ -33,8 +45,10 @@ public class ChatClient {
           }
     }
     
-    public static Packet sendPacket(Packet packet)	{
-       
+    public  Packet sendPacket(Packet packet)	{
+    	packet.setDeviceId(clientId);
+		packet.setDeviceType("client");
+		
         ObjectOutputStream oos = null;
         ObjectInputStream ois = null;
         
@@ -65,7 +79,7 @@ public class ChatClient {
     }
     
     
-    public static void closeConnection()	{
+    public  void closeConnection()	{
     	
         try
         {
@@ -79,23 +93,31 @@ public class ChatClient {
     }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		ChatClientCommandLine arguments = CommandLine.populateCommand(new ChatClientCommandLine(), args);
+		System.out.println("command line client id " + arguments.clientId);
+	
+		if(arguments.usageHelpRequested)	{
+			CommandLine.usage(arguments, System.out);
+			System.exit(0);
+		}
 		
-		new ChatClient();
-	}	
+		ChatClient chatClient = new ChatClient();
+		if(arguments.clientId != null)	{
+			chatClient.assignClientId(arguments.clientId);
+		}
+
+		Packet packet = new Packet("eded", Packet.PacketType.DEV);
+		chatClient.sendPacket(packet);
+		chatClient.closeConnection();
+	}
 	
 	public ChatClient() {
-		// TODO Auto-generated constructor stub
 		clientId = new Random().nextLong();
 		logger.info("Client Initializing");
 		initConnection();
-		
-		Packet packet = new Packet("eded");
-		packet.setDeviceId(clientId);
-		packet.setDeviceType("client");
-		sendPacket(packet);
-		
-		closeConnection();
-		
+	}
+	public void assignClientId(long clientId)	{
+		this.clientId = clientId;
 	}
 }
 

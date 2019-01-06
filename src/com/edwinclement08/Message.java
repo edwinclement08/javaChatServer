@@ -1,61 +1,59 @@
 package com.edwinclement08;
 
+import java.io.Serializable;
 import java.time.Instant;
 import org.json.simple.JSONObject;
 
 
-public class Message	{
+import com.google.gson.Gson;
+
+public class Message implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -5120515665591704792L;
+	public Object message;
+	public long senderId, receiverId, timeStampMillis;
+	transient static Gson gson = new Gson();
+
+	
 	JSONObject messageObject;
 	
-	public JSONObject getMessageObject() {
-		return messageObject;
-	}
 
-	public void setMessageObject(JSONObject messageObject) {
-		this.messageObject = messageObject;
-	}
-
-	Message()	{
+	public Message()	{
 	}
 	
-	@SuppressWarnings("unchecked")
-	Message(String message, long senderId, long receiverId)		{
+	public Message(String message, long senderId, long receiverId)		{
 		Instant instant = Instant.now();
-		long timeStampMillis = instant.toEpochMilli();
 		 
-		messageObject = new JSONObject();
-		messageObject.put("message", message);
-		messageObject.put("senderId", senderId);
-		messageObject.put("receiverId", receiverId);
-		messageObject.put("timeStampMillis", timeStampMillis);
+		this.message = message;
+		this.senderId = senderId;
+		this.receiverId = receiverId;
+		this.timeStampMillis = instant.toEpochMilli();
 	}
 	
-	@SuppressWarnings("unchecked")
 	public static Message recreateMessage(String message, long senderId, long receiverId, long timeStampMillis)	{
-		Message m = new Message();
-		JSONObject messageObject = new JSONObject();
-		messageObject.put("message", message);
-		messageObject.put("senderId", senderId);
-		messageObject.put("receiverId", receiverId);
-		messageObject.put("timeStampMillis", timeStampMillis);
-		m.setMessageObject(messageObject);
-		return m;
+		Message messageObject = new Message();
+		
+		messageObject.message = message;
+		messageObject.senderId = senderId;
+		messageObject.receiverId = receiverId;
+		messageObject.timeStampMillis = timeStampMillis;
+
+		return messageObject;
 	}
 	
 	public String toString()	{
-		return JSONEncoder.dump(messageObject);
+		return gson.toJson(this);
 	}
 	
 	public static Message fromString(String jsonString)	{
-		JSONObject jo = JSONEncoder.load(jsonString);
-		String message = (String) jo.get("message"); 
-		long senderId = (long) jo.get("senderId"); 
-		long receiverId = (long) jo.get("receiverId"); 
-		long timeStampMillis = (long) jo.get("timeStampMillis"); 
-		
-		Message tempMessage = Message.recreateMessage(message, senderId, receiverId, timeStampMillis );
-		
-		return tempMessage;
+		if (jsonString.equals(""))	{
+			Message message = new Message();
+			return message;
+		}
+		Message message = gson.fromJson(jsonString, Message.class);		
+		return message;
 	}
 }
 

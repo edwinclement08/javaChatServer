@@ -6,5 +6,6 @@
 	<classpathentry kind="lib" path="/Users/ravipeter/Documents/workspace/ChatApp/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="json-simple-1.1.jar"/>
 	<classpathentry kind="lib" path="gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="picocli-3.9.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

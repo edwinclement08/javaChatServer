@@ -1,0 +1,75 @@
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+15 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+17 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+18 [main] ERROR com.edwinclement08.server.ChatServer  - Can't close the socket
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+201 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+13 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+11845 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+66 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+11959 [main] INFO com.edwinclement08.server.ChatServer  - Client::2919056139599454065:Packet received:{"value":"eded","deviceId":2919056139599454065,"deviceType":"client"}
+11963 [main] INFO com.edwinclement08.server.ChatServer  - Client::2919056139599454065:Packet sent:{"value":"Received a Packet from 2919056139599454065","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+129 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+12 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+3797 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+57 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+3910 [main] INFO com.edwinclement08.server.ChatServer  - Client::-5730705148981121293:Packet received:{"packetType":"DEV","deviceId":-5730705148981121293,"deviceType":"client","message":{"message":"Testing the Chat Agent","senderId":-5730705148981121293,"receiverId":234,"timeStampMillis":1546733054243}}
+3914 [main] INFO com.edwinclement08.server.ChatServer  - Client::-5730705148981121293:Packet sent:{"value":"Received a Packet from -5730705148981121293","packetType":"DEV","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+83957 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+83963 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+101183 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+49 [main] INFO com.edwinclement08.server.ChatServer  - {"packetType":"DEV","deviceId":0,"message":{"message":"Testing the Chat Agent","senderId":2159878809027448129,"receiverId":234,"timeStampMillis":1546733151622}}
+67 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+101239 [main] INFO com.edwinclement08.server.ChatServer  - Client::2159878809027448129:Packet received:{"packetType":"DEV","deviceId":2159878809027448129,"deviceType":"client","message":{"message":"Testing the Chat Agent","senderId":2159878809027448129,"receiverId":234,"timeStampMillis":1546733151622}}
+101239 [main] INFO com.edwinclement08.server.ChatServer  - Client::2159878809027448129:Packet sent:{"value":"Received a Packet from 2159878809027448129","packetType":"DEV","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+191370 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+51 [main] INFO com.edwinclement08.server.ChatServer  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent","senderId":5001615879750577705,"receiverId":234,"timeStampMillis":1546733241811}}
+70 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+191428 [main] INFO com.edwinclement08.server.ChatServer  - Client::5001615879750577705:Packet received:{"packetType":"SEND_MESSAGE","deviceId":5001615879750577705,"deviceType":"client","message":{"message":"Testing the Chat Agent","senderId":5001615879750577705,"receiverId":234,"timeStampMillis":1546733241811}}
+191428 [main] INFO com.edwinclement08.server.ChatServer  - {"message":"Testing the Chat Agent","senderId":5001615879750577705,"receiverId":234,"timeStampMillis":1546733241811}
+191430 [main] INFO com.edwinclement08.server.ChatServer  - Client::5001615879750577705:Packet sent:{"value":"Received a Packet from 5001615879750577705","packetType":"DEV","deviceId":0}
+200014 [main] ERROR com.edwinclement08.server.ChatServer  - Can't listen on socket
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+13 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+2408 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+51 [main] INFO com.edwinclement08.server.ChatServer  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent","senderId":-2500922584959490477,"receiverId":234,"timeStampMillis":1546733257249}}
+72 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+2536 [main] INFO com.edwinclement08.server.ChatServer  - Client::-2500922584959490477:Packet received:{"packetType":"SEND_MESSAGE","deviceId":-2500922584959490477,"deviceType":"client","message":{"message":"Testing the Chat Agent","senderId":-2500922584959490477,"receiverId":234,"timeStampMillis":1546733257249}}
+2536 [main] INFO com.edwinclement08.server.ChatServer  - {"message":"Testing the Chat Agent","senderId":-2500922584959490477,"receiverId":234,"timeStampMillis":1546733257249}
+2541 [main] INFO com.edwinclement08.server.ChatServer  - Client::-2500922584959490477:Packet sent:{"value":"Received a Packet from -2500922584959490477","packetType":"DEV","deviceId":0}
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+14 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+4225 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+70 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+4357 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+4366 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+4368 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+179 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent","senderId":12,"receiverId":24,"timeStampMillis":1546736714353}}
+180 [main] ERROR com.edwinclement08.client.ChatClient  - Unable to set up OutputStream
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+66816 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+55 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+66860 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+66860 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+66861 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"packetType":"DEV","deviceId":0}
+86 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent","senderId":12,"receiverId":24,"timeStampMillis":1546736776853}}
+87 [main] ERROR com.edwinclement08.client.ChatClient  - Unable to set up OutputStream
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+13 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+0 [main] INFO com.edwinclement08.client.ChatClient  - Client Initializing
+3158 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+53 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
+3264 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+3268 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"Received a Packet from 12","packetType":"DEV","deviceId":0}
+142 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent","senderId":12,"receiverId":24,"timeStampMillis":1546737071790}}
+143 [main] ERROR com.edwinclement08.client.ChatClient  - Unable to set up OutputStream
