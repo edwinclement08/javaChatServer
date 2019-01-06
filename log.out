@@ -176,3 +176,6 @@
 82 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to Socket Server
 2433 [main] INFO com.edwinclement08.server.ChatServer  - Client::6533003571580591389:Packet received:{"value":"eded","deviceId":6533003571580591389,"deviceType":"client"}
 2437 [main] INFO com.edwinclement08.server.ChatServer  - Client::6533003571580591389:Packet sent:{"value":"Return","deviceId":-1011445371178074351,"deviceType":"server"}
+1 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+10 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
+200012 [Timer-0] INFO com.edwinclement08.server.ChatServer  - Error Shutting down in timed manner

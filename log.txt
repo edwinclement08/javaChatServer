@@ -73,3 +73,5 @@
 3268 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"value":"Received a Packet from 12","packetType":"DEV","deviceId":0}
 142 [main] INFO com.edwinclement08.client.ChatAgent  - {"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"Testing the Chat Agent","senderId":12,"receiverId":24,"timeStampMillis":1546737071790}}
 143 [main] ERROR com.edwinclement08.client.ChatClient  - Unable to set up OutputStream
+0 [main] DEBUG com.edwinclement08.server.ChatServer  - This is debug
+10 [main] INFO com.edwinclement08.server.ChatServer  - Starting the Infinite Loop
