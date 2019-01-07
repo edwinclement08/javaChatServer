@@ -1264,3 +1264,445 @@
 40998 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546841546910}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546841548019}]
 40998 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546841548019}
 40999 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+400043 [Timer-0] INFO com.edwinclement08.server.ChatServer  - Shutting down server
+0 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+8 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+8 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+3 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - [SQLITE_ERROR] SQL error or missing database (near ")": syntax error)
+35 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+43 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+43 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+40 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+48 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+35 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+42 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+43 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+1 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - Tables exist or have been created
+33 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+41 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+42 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+5 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - Tables exist or have been created
+38 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+46 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+47 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+7434 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+7472 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+7478 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+7480 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+7481 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+7482 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843443326}}
+7483 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+7483 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843443326}]
+7483 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - database connection closed
+7483 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - database connection closed
+7483 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+7483 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843443326}
+7484 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+1 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - Tables exist or have been created
+34 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+42 [main] ERROR com.edwinclement08.server.ChatServer  - Failed to bind to port:25001
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+1 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - Tables exist or have been created
+35 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+43 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+43 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+2427 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+2465 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+2470 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+2472 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+2473 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+2475 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843611014}}
+2475 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+2475 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843611014}]
+2476 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - Test
+2476 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - database connection closed
+2476 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - database connection closed
+2476 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+2476 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843611014}
+2476 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+1 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - Tables exist or have been created
+34 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+41 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+42 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+6355 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+6394 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+6399 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+6401 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+6402 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+6404 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843679090}}
+6404 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+6404 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843679090}]
+6404 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - org.sqlite.SQLiteConnection@6e8dacdf
+6405 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - database connection closed
+6405 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - database connection closed
+6405 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+6405 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843679090}
+6405 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+2 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - Tables exist or have been created
+37 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+46 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+47 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+1148 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+1187 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+1192 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+1194 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+1195 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+1197 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843702222}}
+1197 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+1197 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843702222}]
+1198 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - org.sqlite.SQLiteConnection@6e8dacdf
+1198 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - database connection closed
+1198 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - database connection closed
+1198 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+1198 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843702222}
+1198 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+1 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - Tables exist or have been created
+33 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+41 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+41 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+1722 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+1761 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+1766 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+1768 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+1770 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+1771 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843727904}}
+1771 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+1771 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843727904}]
+1772 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - org.sqlite.SQLiteConnection@6e8dacdf
+1772 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - fesfe
+1772 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - database connection closed
+1772 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - database connection closed
+1772 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+1772 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843727904}
+1772 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+1 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - Tables exist or have been created
+34 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+41 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+42 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+5775 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+5813 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+5818 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+5820 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+5821 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+5823 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843849069}}
+5823 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+5823 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843849069}]
+5823 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - org.sqlite.SQLiteConnection@6e8dacdf
+5828 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - org.sqlite.SQLiteConnection@6e8dacdf
+5830 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - [SQLITE_ERROR] SQL error or missing database (near "WHERE": syntax error)
+5830 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+5830 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843849069}
+5830 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+2 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - Tables exist or have been created
+34 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+41 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+42 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+1921 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+1959 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+1964 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+1967 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+1968 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+1969 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843904884}}
+1969 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+1969 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843904884}]
+1973 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: messagesDB.clientid)
+1973 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+1973 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843904884}
+1973 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+5 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - Tables exist or have been created
+38 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+46 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+47 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+1986 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+2023 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+2029 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+2031 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+2032 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+2034 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843950687}}
+2034 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+2034 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843950687}]
+2039 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+2039 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843950687}
+2040 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+26221 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+26226 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+26226 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+26226 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+26230 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+26231 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843974885}}
+26231 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+26231 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843950687}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843974885}]
+26235 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+26235 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843974885}
+26235 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+26601 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+26606 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+26607 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+26607 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+26610 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+26611 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843975266}}
+26611 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+26611 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843950687}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843974885}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843975266}]
+26615 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+26615 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843975266}
+26615 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+26990 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+26995 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+26995 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+26995 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+26999 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+27000 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843975654}}
+27000 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+27000 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843950687}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843974885}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843975266}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843975654}]
+27004 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+27004 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843975654}
+27004 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+27587 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+27593 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+27593 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+27593 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+27596 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+27597 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843976252}}
+27597 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+27598 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843950687}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843974885}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843975266}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843975654}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843976252}]
+27600 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+27600 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843976252}
+27600 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+27983 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+27988 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+27988 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+27988 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+27992 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+27993 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843976647}}
+27993 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+27993 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843950687}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843974885}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843975266}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843975654}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843976252}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843976647}]
+27995 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+27995 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843976647}
+27995 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+28735 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+28740 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+28740 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+28741 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+28744 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+28745 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843977400}}
+28745 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+28745 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843950687}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843974885}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843975266}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843975654}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843976252}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843976647}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843977400}]
+28747 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+28747 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843977400}
+28748 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+1 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - Tables exist or have been created
+34 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+43 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+43 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+6494 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+6532 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+6538 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+6540 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+6541 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+6543 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844115160}}
+6543 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+6543 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844115160}]
+6549 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - 0is the number of unread messages
+6549 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+6549 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844115160}
+6549 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+13074 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+13079 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+13079 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+13080 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+13083 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+13084 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844121701}}
+13084 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+13084 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844115160}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844121701}]
+13088 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - 0is the number of unread messages
+13088 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+13088 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844121701}
+13088 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+4 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - Tables exist or have been created
+37 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+45 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+46 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+3495 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+3532 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+3538 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+3540 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+3541 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+3542 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844332022}}
+3542 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+3543 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844332022}]
+3547 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - 0 is the number of unread messages
+3548 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+3548 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844332022}
+3548 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+5572 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+5578 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+5578 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+5578 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+5581 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+5583 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844334063}}
+5583 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+5583 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844332022}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844334063}]
+5585 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - 1 is the number of unread messages
+5585 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+5586 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844334063}
+5586 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+6974 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+6979 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+6979 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+6979 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+6983 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+6984 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844335465}}
+6984 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+6984 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844332022}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844334063}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844335465}]
+6988 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - 2 is the number of unread messages
+6988 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+6988 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844335465}
+6989 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+8001 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+8007 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+8007 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+8007 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+8010 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+8011 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844336492}}
+8012 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+8012 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844332022}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844334063}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844335465}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844336492}]
+8015 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - 3 is the number of unread messages
+8016 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+8016 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844336492}
+8016 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+8978 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+8983 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+8983 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+8983 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+8987 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+8988 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844337468}}
+8988 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+8988 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844332022}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844334063}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844335465}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844336492}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844337468}]
+8993 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - 4 is the number of unread messages
+8994 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+8994 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844337468}
+8995 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+9921 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+9926 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9926 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+9926 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+9930 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+9930 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844338411}}
+9931 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+9931 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844332022}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844334063}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844335465}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844336492}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844337468}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844338411}]
+9934 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - 5 is the number of unread messages
+9935 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+9935 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844338411}
+9935 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+1 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+3 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - [SQLITE_ERROR] SQL error or missing database (near "index": syntax error)
+35 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+43 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+43 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+5548 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+5586 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+5591 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+5593 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+5595 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+5596 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845409965}}
+5596 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+5596 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845409965}]
+5598 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - [SQLITE_ERROR] SQL error or missing database (no such table: messagesDB)
+5598 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - [SQLITE_ERROR] SQL error or missing database (no such table: readStatus)
+5599 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - 0 is the number of unread messages
+5599 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - [SQLITE_ERROR] SQL error or missing database (no such table: readStatus)
+5599 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+5599 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845409965}
+5599 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+2 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - [SQLITE_ERROR] SQL error or missing database (near "AUTOINCREMENT": syntax error)
+34 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+42 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+43 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+1 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+3 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - [SQLITE_ERROR] SQL error or missing database (near "AUTOINCREMENT": syntax error)
+35 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+43 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+43 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+6 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - Tables exist or have been created
+38 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+46 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+46 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+0 [main] INFO com.edwinclement08.Database  - Connection to SQLite has been established.
+2 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - Tables exist or have been created
+35 [main] INFO com.edwinclement08.server.ChatServer  - Initializing the Server
+42 [main] INFO com.edwinclement08.server.ChatServer  - Server Started and listening to the port 
+43 [main] INFO com.edwinclement08.server.ChatServer  - Shutting down the server in 400 sec
+3165 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+3203 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+3208 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+3210 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+3212 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+3213 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845599305}}
+3213 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+3213 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845599305}]
+3219 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - 0 is the number of unread messages
+3220 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+3220 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845599305}
+3220 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+7878 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+7883 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+7884 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+7884 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+7887 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+7888 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845603981}}
+7888 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+7888 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845599305}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845603981}]
+7892 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - 1 is the number of unread messages
+7893 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+7893 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845603981}
+7893 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+8778 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+8783 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+8783 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+8783 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+8786 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+8787 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet received:{"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845604880}}
+8787 [main] INFO com.edwinclement08.Database  - Added the message to the queue.
+8787 [main] INFO com.edwinclement08.Database  - [{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845599305}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845603981}, {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845604880}]
+8791 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - 2 is the number of unread messages
+8792 [main] INFO com.edwinclement08.Database  - Added the message to the database.
+8792 [main] INFO com.edwinclement08.server.ServerPacketHandler  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845604880}
+8792 [main] INFO com.edwinclement08.server.ChatServer  - Client::12:Packet sent:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+35815 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+35820 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+35820 [main] INFO com.edwinclement08.Database  - Client registering for the first time
+35821 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+35824 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+35826 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+35826 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845604880}
+35828 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845603981}
+35828 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - {"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845599305}
+35828 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - Number of unread messages:3
+35828 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - all messages read, consistent
+35833 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":[{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845604880},{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845603981},{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845599305}],"packetType":"CHECK_MESSAGE_RESPONSE","deviceId":0}
+44627 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+44632 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+44632 [main] INFO com.edwinclement08.Database  - Client has appeared bfr.
+44632 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+44636 [main] INFO com.edwinclement08.server.ChatServer  - got a client
+44637 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet received:{"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+44638 [main] ERROR com.edwinclement08.SQLiteJDBCDriverConnection  - [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: readStatus.clientid)
+44639 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - Number of unread messages:0
+44639 [main] INFO com.edwinclement08.SQLiteJDBCDriverConnection  - all messages read, consistent
+44641 [main] INFO com.edwinclement08.server.ChatServer  - Client::23:Packet sent:{"payload":[],"packetType":"CHECK_MESSAGE_RESPONSE","deviceId":0}

@@ -650,3 +650,232 @@
 16 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546841548019}}
 18 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
 18 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+10 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+54 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+55 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843443326}}
+55 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843443326}}
+58 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+58 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+53 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843611014}}
+54 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843611014}}
+58 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+58 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+10 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+54 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+55 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+55 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843679090}}
+55 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843679090}}
+58 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+58 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+10 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+54 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+55 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+55 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843702222}}
+55 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843702222}}
+58 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+59 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+54 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843727904}}
+55 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843727904}}
+58 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+58 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+53 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843849069}}
+54 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843849069}}
+64 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+64 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+10 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+54 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843904884}}
+55 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843904884}}
+60 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+60 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+53 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+53 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843950687}}
+54 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843950687}}
+62 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+62 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+16 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+16 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+17 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843974885}}
+17 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843974885}}
+22 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+22 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+10 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+16 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+17 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+17 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843975266}}
+17 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843975266}}
+23 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+23 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+16 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+16 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+16 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843975654}}
+17 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843975654}}
+22 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+22 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+1 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+10 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+16 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+17 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+17 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843976252}}
+18 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843976252}}
+21 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+22 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+16 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+16 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+16 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843976647}}
+17 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843976647}}
+21 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+21 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+16 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+16 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+17 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843977400}}
+17 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546843977400}}
+21 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+21 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+54 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+55 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844115160}}
+55 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844115160}}
+63 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+63 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+16 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+16 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+17 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844121701}}
+17 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844121701}}
+22 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+22 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+53 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+53 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844332022}}
+54 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844332022}}
+62 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+62 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+15 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+16 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+16 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844334063}}
+17 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844334063}}
+21 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+21 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+16 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+16 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+17 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844335465}}
+17 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844335465}}
+23 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+23 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+10 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+16 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+17 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+17 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844336492}}
+17 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844336492}}
+24 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+24 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+16 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+16 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+17 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844337468}}
+17 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844337468}}
+25 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+25 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+16 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+16 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+16 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844338411}}
+17 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546844338411}}
+23 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+23 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+54 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845409965}}
+55 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845409965}}
+59 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+59 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+10 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+53 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845599305}}
+55 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845599305}}
+64 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+64 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+10 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+16 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+17 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+17 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845603981}}
+17 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845603981}}
+23 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+23 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":12,"deviceType":"client"}
+15 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+16 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+16 [main] INFO com.edwinclement08.client.ChatAgent  - Sending packet:{"packetType":"SEND_MESSAGE","deviceId":0,"message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845604880}}
+16 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"SEND_MESSAGE","deviceId":12,"deviceType":"client","message":{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845604880}}
+23 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+23 [main] INFO com.edwinclement08.client.ChatAgent  - Got back the acknowledgement:{"payload":"","packetType":"SEND_MESSAGE_SUCCESS","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+16 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+16 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+17 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+28 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":[{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845604880},{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845603981},{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845599305}],"packetType":"CHECK_MESSAGE_RESPONSE","deviceId":0}
+28 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":[{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845604880},{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845603981},{"message":"sfsesefs sefsef","senderId":12,"receiverId":23,"timeStampMillis":1546845599305}],"packetType":"CHECK_MESSAGE_RESPONSE","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+16 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+16 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+17 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+24 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":[],"packetType":"CHECK_MESSAGE_RESPONSE","deviceId":0}
+24 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":[],"packetType":"CHECK_MESSAGE_RESPONSE","deviceId":0}
+0 [main] INFO com.edwinclement08.client.ChatAgent  - Registering the client:{"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+9 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"packetType":"REGISTER_AGENT","deviceId":23,"deviceType":"client"}
+53 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":"","packetType":"REGISTER_AGENT_SUCCESS","deviceId":0}
+54 [main] INFO com.edwinclement08.client.ChatClient  - Sending packet to server: {"payload":23,"packetType":"CHECK_MESSAGE","deviceId":23,"deviceType":"client"}
+66 [main] INFO com.edwinclement08.client.ChatClient  - Return Packet from Server: {"payload":[],"packetType":"CHECK_MESSAGE_RESPONSE","deviceId":0}
+66 [main] INFO com.edwinclement08.client.ChatAgent  - {"payload":[],"packetType":"CHECK_MESSAGE_RESPONSE","deviceId":0}

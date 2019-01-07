@@ -12,21 +12,32 @@ public class Database {
 	final static Logger logger = Logger.getLogger(Database.class);
 
 	static Database _instance;
+	static SQLiteJDBCDriverConnection sqlite;
 
 	public HashMap<Long, ArrayList<Message>> messagesDB;
 	public HashMap<Long, Integer> chatAgentsDBReadStatus;
 	private HashSet<Long> registeredClients;
 
-	private Database(int i) {
-		SQLiteJDBCDriverConnection sqlite = new SQLiteJDBCDriverConnection();
-
-		sqlite.getConnection();
-	}
+//	private Database(int i) {
+//		SQLiteJDBCDriverConnection sqlite = new SQLiteJDBCDriverConnection();
+//		sqlite.getConnection();
+//		sqlite.initSetup();		// create the objects
+//
+//		registeredClients = new HashSet<Long>();
+//
+//	}
+//	
 
 	private Database() {
 		messagesDB = new HashMap<Long, ArrayList<Message>>();
 		chatAgentsDBReadStatus = new HashMap<Long, Integer>();
 		registeredClients = new HashSet<Long>();
+		
+		sqlite = new SQLiteJDBCDriverConnection();
+		sqlite.getConnection();
+		sqlite.initSetup();		// create the objects
+
+
 	}
 
 	public static Database getInstance() {
@@ -83,31 +94,42 @@ public class Database {
 		} else {
 			logger.error("The Sender ChatAgent is not registered");
 		}
+	
+		if (registeredClients.contains(senderId)) {
+			// add the message to the queue
+			sqlite.insertToMessagesDB(receiverId, message);
+			
+			logger.info("Added the message to the database.");
+
+		} else {
+			logger.error("The Sender ChatAgent is not registered");
+		}
 	}
 
 	public ArrayList<Message> checkMessage(long senderId) {
-		ArrayList<Message> unreadMessages = new ArrayList<Message>();
+//		ArrayList<Message> unreadMessages = new ArrayList<Message>();
+//		if (messagesDB.containsKey(senderId)) {
+//			int numberOfMessagesUnread = (int) chatAgentsDBReadStatus.get(senderId);
+//
+//			ArrayList<Message> messages = messagesDB.get(senderId);
+//
+//			int totalLength = messages.size();
+//			logger.info(messages);
+//			logger.info(totalLength);
+//			logger.info(numberOfMessagesUnread);
+//
+//			// create a list view with only unread messages
+//			if (numberOfMessagesUnread > 0) {
+//				unreadMessages.addAll(messages.subList(totalLength - 1 - numberOfMessagesUnread, totalLength));
+//			}
+//
+//			logger.info(unreadMessages);
+//		} else {
+//			logger.info("Sender " + senderId + " has no message queue");
+//		}
+//		return unreadMessages;
 
-		if (messagesDB.containsKey(senderId)) {
-			int numberOfMessagesUnread = (int) chatAgentsDBReadStatus.get(senderId);
-
-			ArrayList<Message> messages = messagesDB.get(senderId);
-
-			int totalLength = messages.size();
-			logger.info(messages);
-			logger.info(totalLength);
-			logger.info(numberOfMessagesUnread);
-
-			// create a list view with only unread messages
-			if (numberOfMessagesUnread > 0) {
-				unreadMessages.addAll(messages.subList(totalLength - 1 - numberOfMessagesUnread, totalLength));
-			}
-
-			logger.info(unreadMessages);
-		} else {
-			logger.info("Sender " + senderId + " has no message queue");
-		}
-		return unreadMessages;
+		return sqlite.checkMessages(senderId);
 
 	}
 
