@@ -3,9 +3,10 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="/Users/edwinclement08q/coding/javaChatServer/picocli-3.9.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="json-simple-1.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="gson-2.8.5.jar"/>
 	<classpathentry kind="lib" path="log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="sqlite-jdbc-3.23.1.jar"/>
+	<classpathentry kind="lib" path="picocli-3.9.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

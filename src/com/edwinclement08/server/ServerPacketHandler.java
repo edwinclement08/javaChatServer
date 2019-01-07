@@ -12,7 +12,7 @@ import com.edwinclement08.Packet.PacketType;
 
 public class ServerPacketHandler {
 	final static Logger logger = Logger.getLogger(ServerPacketHandler.class);
-	final static Database database  = new Database();
+	final static Database database  = Database.getInstance();
 	
 
 	ServerPacketHandler()	{

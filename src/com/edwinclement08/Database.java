@@ -2,8 +2,8 @@ package com.edwinclement08;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.HashSet;
+import java.util.List;
 import java.util.stream.Collectors;
 
 import org.apache.log4j.Logger;
@@ -11,15 +11,29 @@ import org.apache.log4j.Logger;
 public class Database {
 	final static Logger logger = Logger.getLogger(Database.class);
 
+	static Database _instance;
+
 	public HashMap<Long, ArrayList<Message>> messagesDB;
 	public HashMap<Long, Integer> chatAgentsDBReadStatus;
 	private HashSet<Long> registeredClients;
 
-	public Database() {
-		logger.error("Inited");
+	private Database(int i) {
+		SQLiteJDBCDriverConnection sqlite = new SQLiteJDBCDriverConnection();
+
+		sqlite.getConnection();
+	}
+
+	private Database() {
 		messagesDB = new HashMap<Long, ArrayList<Message>>();
 		chatAgentsDBReadStatus = new HashMap<Long, Integer>();
 		registeredClients = new HashSet<Long>();
+	}
+
+	public static Database getInstance() {
+		if (_instance == null) {
+			_instance = new Database();
+		}
+		return _instance;
 	}
 
 	// TODO setup a notification system.
@@ -45,24 +59,23 @@ public class Database {
 	public void sendMessage(long senderId, long receiverId, Message message) {
 		if (registeredClients.contains(senderId)) {
 			ArrayList<Message> messageArray;
-			
-			if(messagesDB.containsKey(receiverId))	{
+
+			if (messagesDB.containsKey(receiverId)) {
 				messageArray = messagesDB.get(receiverId);
 			} else {
 				messageArray = new ArrayList<Message>();
 			}
-			
+
 			// add the message to the queue
 			messageArray.add(message);
 
 			// updating the unread count
-			if(!chatAgentsDBReadStatus.containsKey(receiverId))	{
+			if (!chatAgentsDBReadStatus.containsKey(receiverId)) {
 				chatAgentsDBReadStatus.put(receiverId, 0);
 			}
-			int numberOfMessagesUnread =  chatAgentsDBReadStatus.get(receiverId);
-			chatAgentsDBReadStatus.put(receiverId, numberOfMessagesUnread+1);
+			int numberOfMessagesUnread = chatAgentsDBReadStatus.get(receiverId);
+			chatAgentsDBReadStatus.put(receiverId, numberOfMessagesUnread + 1);
 
-			
 			messagesDB.put(receiverId, messageArray);
 			logger.info("Added the message to the queue.");
 			logger.info(messagesDB.get(receiverId));
@@ -71,32 +84,31 @@ public class Database {
 			logger.error("The Sender ChatAgent is not registered");
 		}
 	}
-	
-	public ArrayList<Message> checkMessage(long senderId){
+
+	public ArrayList<Message> checkMessage(long senderId) {
 		ArrayList<Message> unreadMessages = new ArrayList<Message>();
 
-		if(messagesDB.containsKey(senderId))	{
+		if (messagesDB.containsKey(senderId)) {
 			int numberOfMessagesUnread = (int) chatAgentsDBReadStatus.get(senderId);
-			
+
 			ArrayList<Message> messages = messagesDB.get(senderId);
-			
+
 			int totalLength = messages.size();
 			logger.info(messages);
 			logger.info(totalLength);
 			logger.info(numberOfMessagesUnread);
 
 			// create a list view with only unread messages
-			if(numberOfMessagesUnread > 0)	{
-				unreadMessages.addAll(messages.subList(totalLength-1-numberOfMessagesUnread, totalLength));
+			if (numberOfMessagesUnread > 0) {
+				unreadMessages.addAll(messages.subList(totalLength - 1 - numberOfMessagesUnread, totalLength));
 			}
 
-			logger.info(unreadMessages);					
+			logger.info(unreadMessages);
 		} else {
-			logger.info("Sender "+ senderId + " has no message queue");
+			logger.info("Sender " + senderId + " has no message queue");
 		}
 		return unreadMessages;
 
-		
 	}
 
 }
