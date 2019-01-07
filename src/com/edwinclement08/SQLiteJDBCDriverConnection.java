@@ -98,7 +98,7 @@ class SQLiteJDBCDriverConnection {
 			while (rs.next()) {
 				count++;
 				unreadMessages = rs.getInt("unread_messages");
-				System.out.println(rs.getInt("clientid") + "\t" + rs.getInt("unread_messages") + "\n");
+				logger.info(rs.getInt("clientid") + "\t" + rs.getInt("unread_messages") + "\n");
 			}
 			if (count > 1) {
 				logger.error("Multiple Entries of client in unreadstatus");

@@ -73,7 +73,7 @@ public class ChatAgent {
 			 }
 		 } else if(arguments.checkMessage){
 			 ArrayList<Message> unreadMessages =checkMessages();
-			 System.out.println(unreadMessages);
+			 logger.info(unreadMessages);
 		 }
 	}
 	
